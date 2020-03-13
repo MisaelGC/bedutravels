@@ -3,6 +3,7 @@ body{
   margin: 0;
 }
 
+/* Todo el Header */
 header{
   background: black;
   padding-top: 2em;
@@ -12,21 +13,52 @@ header{
 figure{
   margin: 0;
   display: inline-block;
+  text-align: center;
+  width: 30%
 }
 
 input{
-  border-radius: 6px;
+  width: 350px;
+  height: 25px;
+  margin-right: -2px;
+}
+
+button{
+  background-color: red;
+  border: none;
+  color: white;
+  width: 90px;
+  height: 25px;
 }
 
 header section{
   display: inline-block;
-  margin-left: 20%;
+  width: 67%;
+  text-align: right;
 }
-
 h1{
   margin: 0;
 }
 
 header figure h1{
   color: white;
+}
+
+/* Body div's e image */
+
+main section img{
+  width: 100%;
+  background-size: cover;
+}
+
+main section h2{
+  width: 10%;
+  background: red;
+  color: white;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+main section div{
+  text-align: center;
 }
